@@ -1,0 +1,76 @@
+nav,
+header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.entry-content {
+    background: url(/images/me.svg);
+}
+
+// .wrapper,
+body,
+#stage {
+    background-image: url(/images/pexels-photo-241544.jpeg) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero.jumbotron {
+    margin-top: -30px;
+    background: #0008;
+    padding-top: 30px;
+}
+
+.backgroundCoin {
+    background: url(/images/background-british-budget-business-41183.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content-wrapper {
+    background: url(../images/pexels-photo-241544.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h5.modal-title.text-dark {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h5#symbol {
+    float: left;
+    min-height: 40px;
+}
+
+.entry-content.bg-dark {
+    width: 100%;
+    padding: 15px;
+}
+
+.progress {
+    height: 30px;
+    background: #c8c8c8;
+    border-radius: 0.5em;
+}
+
+h3 {
+    font-size: 1.75rem;
+    text-align: left;
+    margin: 5px;
+}
+
+.entry-content.bg-dark {
+    background-attachment: fixed !important;
+    background-position: 95% 30% !important;
+    background-repeat: no-repeat !important;
+    background-size: 50% !important;
+}

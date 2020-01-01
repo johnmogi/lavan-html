@@ -1,0 +1,58 @@
+.container,
+.container-fluid,
+.navbar {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.switch label {
+  float: right;
+}
+
+#liveChart {
+  max-height: 450px;
+  min-height: 450px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.rounded-circle {
+  max-width: 250px;
+  min-height: 250px;
+  margin-bottom: 5px;
+}
+
+.col-4 {
+  margin: .25rem !important;
+  max-width: 32.33333%;
+}
+
+#popupModal .switch label input[type=checkbox]:checked + .lever:after,
+#popupModal .switch label input[type=checkbox]:checked + .lever {
+  background-color: #f44336;
+}
+
+img#spinner {
+  margin: -150px auto;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-4 {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
