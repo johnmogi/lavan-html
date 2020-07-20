@@ -1,0 +1,15 @@
+.navbar{
+
+    flex-direction: row-reverse;
+} 
+
+.navbar-brand{
+    flex: 1;
+}
+
+#navbarSupportedContent {
+    direction: ltr;
+}
+.navbar-nav {
+    direction: rtl;
+}
