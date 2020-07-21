@@ -17,8 +17,12 @@ a.nav-link:hover {
     border-top: 4px solid #000!important;
     transition: all .4s ease-in-out!important;
 }
-
-
+b {
+    font-weight: 600;
+}
+.jumbotron{
+    margin-bottom:0;
+}
 /*MQ*/
 /* needs to expand bp */
 
@@ -42,9 +46,14 @@ a.nav-link:hover {
 }
 
 
-@media only screen and (min-width: 681px){
+@media only screen and (max-width: 781px){
 .navbar-toggler {
     float: right;
     margin-top: 25px;
+}
+.col{
+width: 100%;
+display: contents;
+flex-grow: 0;
 }
 }
